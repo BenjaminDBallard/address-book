@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- When you click this button, the posts collected in the fetch request will be logged in the console in your devtools tray -->
+      <button onclick="consolePosts()">Console Posts</button>
+
+      <!-- When you click this button the posts collected from the fetch request will be displayed below in the ul element with the id='all-posts' -->
+      <button onclick="displayPost()">Display Posts</button>
+      <button onclick="displayPost(compareLast)">Sort Last Name</button>
+      <button onclick="displayPost(compareFirst)">Sort First name</button>
+      <div>
+        <h3>Users:</h3>
+        <ul id="all-posts"></ul>
+      </div>
+      <img src="" alt="" />
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

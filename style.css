@@ -1,0 +1,22 @@
+.hiddenInfo{
+    display: none;
+}
+
+li{
+    display: flex;
+    margin: 10px;
+    }
+
+button{
+    height: fit-content;
+    margin: 0 10px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    margin: 0 10px;
+}
